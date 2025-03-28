@@ -76,7 +76,7 @@ body {
 }
 
 .card {
-  background: hsla(0, 0%, 100%, 0.25);
+  background: linear-gradient(189deg, rgba(47, 142, 60, .6), hsla(0, 0%, 100%, .1));
   backdrop-filter: blur(25px);
   border-radius: 20px;
   text-align: center;
@@ -97,7 +97,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: hsla(0, 0%, 100%, 0.35);
+  background: white;
   border-radius: 50%;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   margin: 0 auto 15px;
@@ -117,7 +117,7 @@ body {
 
 .btn {
   margin-top: 10px;
-  background: rgba(186, 59, 160, 0.4);
+  background: linear-gradient(189deg, rgba(47, 142, 60, .6), hsla(0, 0%, 100%, .1));
   color: #fff;
   padding: 10px 15px;
   border: 1px solid #fff;
