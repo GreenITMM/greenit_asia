@@ -31,16 +31,17 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 body {
   font-family: 'Poppins', sans-serif;
   text-align: center;
-  background: url('@/assets/images/bg_3.jpg') no-repeat center center/cover;
+  background: url('@/assets/images/background.webp') no-repeat center center/cover;
   margin: 0;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .container {
-  background: url('@/assets/images/background.webp') no-repeat center center/cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,13 +64,14 @@ body {
     -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
     border: 2px solid hsla(0, 0%, 100%, .3);
+    color: yellow;
 }
 
 .cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 30px;
+  gap: 70px;
   width: 100%;
   max-width: 1200px;
   margin-top: 50px;
@@ -80,7 +82,7 @@ body {
   backdrop-filter: blur(25px);
   border-radius: 20px;
   text-align: center;
-  width: 200px;
+  width: 150px;
   padding: 20px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -92,8 +94,8 @@ body {
 }
 
 .icon-container {
-  width: 170px;
-  height: 170px;
+  width: 150px;
+  height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -104,7 +106,7 @@ body {
 }
 
 .icon {
-  width: 170px;
+  width: 150px;
   height: auto;
 }
 
