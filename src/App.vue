@@ -34,9 +34,8 @@ export default {
 <style scoped>
 body {
   font-family: 'Poppins', sans-serif;
-  text-align: center;
-  background: url('@/assets/images/bg_3.jpg') no-repeat center center/cover;
   margin: 0;
+  overflow: hidden;
 }
 
 .container {
@@ -45,8 +44,10 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
   padding: 20px;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
 }
 
 .title {
